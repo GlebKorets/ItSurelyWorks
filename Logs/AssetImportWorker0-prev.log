@@ -1,0 +1,654 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.1f1 (46620eadcc07) revision 4612622'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/korec/Downloads/UILearning
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+37906
+Successfully changed project path to: C:/Users/korec/Downloads/UILearning
+C:/Users/korec/Downloads/UILearning
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11408] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1784583069 [EditorId] 1784583069 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HDKEV12A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11408] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1784583069 [EditorId] 1784583069 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HDKEV12A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 14.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.1f1 (46620eadcc07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/korec/Downloads/UILearning/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     8054 MB
+    Driver:   31.0.101.4146
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002648 seconds.
+- Loaded All Assemblies, in  0.491 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 784ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\korec\Downloads\UILearning\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\korec\Downloads\UILearning\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.977 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (571ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (57.1 KB). Loaded Objects now: 4650.
+Memory consumption went from 151.5 MB to 151.4 MB.
+Total: 4.442300 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.105200 ms MarkObjects: 4.004400 ms  DeleteObjects: 0.130000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1800464.309671 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19180906686bb24d174d84528c60b1bf') in 0.309957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1369.807839 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f27cb44128783972b13bc663c055eb0') in 0.184324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\korec\Downloads\UILearning\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\korec\Downloads\UILearning\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.098 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.713 seconds
+Domain Reload Profiling: 3808ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (477ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (342ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2713ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 17.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (66.7 KB). Loaded Objects now: 4713.
+Memory consumption went from 146.9 MB to 146.9 MB.
+Total: 12.897300 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.210600 ms MarkObjects: 11.752300 ms  DeleteObjects: 0.596200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.811706 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(08331cb78c43cbf42931b2f041a6ae83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(08331cb78c43cbf42931b2f041a6ae83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8791c03df01f11d43b74d8a2353818b') in 0.004873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021433 seconds.
+  path: Assets/Fonts/LiberationSans SDF.asset
+  artifactKey: Guid(0801f499efb75e6448b7767a689cbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/LiberationSans SDF.asset using Guid(0801f499efb75e6448b7767a689cbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e14301b72aacacc2b3162bcd2890463') in 0.153583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Fonts/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(da25167bb7a7f2e47a9d22ecfe3306bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/LiberationSans SDF - Outline.mat using Guid(da25167bb7a7f2e47a9d22ecfe3306bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d15a65cc97be56dbf932b57ae004bd') in 0.033366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 190.677431 seconds.
+  path: Assets/shapes2d-master
+  artifactKey: Guid(a17d76a2e8ecc8541be8e4d9efc097a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master using Guid(a17d76a2e8ecc8541be8e4d9efc097a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86da5a6cb54aac009ea2a759685a977') in 0.001026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.070476 seconds.
+  path: Assets/shapes2d-master/shapes2d-master
+  artifactKey: Guid(5fc3785b502ce0740a64c5ac83baafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master using Guid(5fc3785b502ce0740a64c5ac83baafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ef921fc5c91dedaf62de7a6c9c3c52') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.061617 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings
+  artifactKey: Guid(bbec3828a6e5fc24b9b8af3d95935707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings using Guid(bbec3828a6e5fc24b9b8af3d95935707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438dd68d430b7778850c844f0868b9ab') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049110 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/AudioManager.asset
+  artifactKey: Guid(5da626526851d3341a9cf18fa2d10af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/AudioManager.asset using Guid(5da626526851d3341a9cf18fa2d10af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369efc5774319ab70b304ed1f08e7e53') in 0.000687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/DynamicsManager.asset
+  artifactKey: Guid(38b698c2e0b4b4e499792986ce10a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/DynamicsManager.asset using Guid(38b698c2e0b4b4e499792986ce10a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c130516691c95f5b4004ac98747764ee') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/EditorSettings.asset
+  artifactKey: Guid(ecc3ed3d167207e46984abc49107d40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/EditorSettings.asset using Guid(ecc3ed3d167207e46984abc49107d40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa74ad5ae6abe67d2c78db343199e615') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/InputManager.asset
+  artifactKey: Guid(77c17ae47540e974a88d9dcb11a30857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/InputManager.asset using Guid(77c17ae47540e974a88d9dcb11a30857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7ca2de9e9958317646919ad4a6db19') in 0.000488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000745 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/NavMeshProjectSettings.asset
+  artifactKey: Guid(28f4a289c5de6994091a2c05513cb3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/NavMeshProjectSettings.asset using Guid(28f4a289c5de6994091a2c05513cb3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3675407a5595359c0605fada80ccc4eb') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/PackageManagerSettings.asset
+  artifactKey: Guid(a1c71a3bb592b3b4b989d72262c882c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/PackageManagerSettings.asset using Guid(a1c71a3bb592b3b4b989d72262c882c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa318e4fbbab4b94676b3de94de81c5') in 0.000520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/PresetManager.asset
+  artifactKey: Guid(5dc5e68404e8b6c40a11cc4e048644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/PresetManager.asset using Guid(5dc5e68404e8b6c40a11cc4e048644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1ee257068fb3b605d2e02d453c2467') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001369 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/QualitySettings.asset
+  artifactKey: Guid(04f5b19fec1ed694494c92f8997fc282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/QualitySettings.asset using Guid(04f5b19fec1ed694494c92f8997fc282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68670fa0b52be18fe91182a156a2b5e7') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/TagManager.asset
+  artifactKey: Guid(71863d8df88b5b947916e00d66c018c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/TagManager.asset using Guid(71863d8df88b5b947916e00d66c018c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadef2dada3de171daa5a01b49c5f901') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/UnityConnectSettings.asset
+  artifactKey: Guid(c8c1bd0ebe6a3f8489152bb8f60ed5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/UnityConnectSettings.asset using Guid(c8c1bd0ebe6a3f8489152bb8f60ed5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea51179039b26f25bf4ce94988ead71') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/ProjectSettings/XRSettings.asset
+  artifactKey: Guid(a23b46e27b3221d45b072011ce53d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/ProjectSettings/XRSettings.asset using Guid(a23b46e27b3221d45b072011ce53d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to load 'C:/Users/korec/Downloads/UILearning/Assets/shapes2d-master/shapes2d-master/ProjectSettings/XRSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+ -> (artifact id: '1f4551f5a0e610d49ac797705367c9a5') in 0.001247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.637671 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/README.md
+  artifactKey: Guid(cb995b0b39850294093d9d2012c5830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/README.md using Guid(cb995b0b39850294093d9d2012c5830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0ab294fae20c196fe3df3fce66be84') in 0.001698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.634924 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Packages
+  artifactKey: Guid(0c0290f0b0d39db4c91f1ce47110f4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Packages using Guid(0c0290f0b0d39db4c91f1ce47110f4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f05f237f9ce44a2fe9a71055ce70d4') in 0.001692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.611636 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets
+  artifactKey: Guid(c28ebddc5fb2bc8448f984cce01510a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets using Guid(c28ebddc5fb2bc8448f984cce01510a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7726601c9cae49f0a63c5db179ed8e') in 0.001047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.071566 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D
+  artifactKey: Guid(e95d0f4ea4af346bc8af135189bf2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D using Guid(e95d0f4ea4af346bc8af135189bf2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00a7aa45a095ecadd3de2d76981a587') in 0.001127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049647 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Preferences.asset
+  artifactKey: Guid(625b6ef095c26463685d2cf468f81259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Preferences.asset using Guid(625b6ef095c26463685d2cf468f81259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a88163291374e04ed5b8363527eaefe') in 0.005081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.251054 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders
+  artifactKey: Guid(5e67fe281c8024292b66b5db7708d070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders using Guid(5e67fe281c8024292b66b5db7708d070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb3e23f390c3a29304570f2853b46f2') in 0.000677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.174353 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders/Common.cginc
+  artifactKey: Guid(727bbf2199d144c3dba0937803dd0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders/Common.cginc using Guid(727bbf2199d144c3dba0937803dd0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea003ec91ef63d0105ba8d3f6a115091') in 0.003718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.051791 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders/Rectangle.cginc
+  artifactKey: Guid(e6065a4fc131c49d485b4bd1ea9a1081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders/Rectangle.cginc using Guid(e6065a4fc131c49d485b4bd1ea9a1081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d42c8b22b2f23cf63a668d03c52bda') in 0.001443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001118 seconds.
+  path: Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders/Triangle.cginc
+  artifactKey: Guid(a08c644cc01bc47cba520429033f0402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shapes2d-master/shapes2d-master/Assets/Shapes2D/Shaders/Triangle.cginc using Guid(a08c644cc01bc47cba520429033f0402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf21a13dea0a7d225d240869a142c79') in 0.001247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1184.271094 seconds.
+  path: Assets/Fonts/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(be57e813cda31064882b93d9207c6fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/LiberationSans SDF - Fallback.asset using Guid(be57e813cda31064882b93d9207c6fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5e0f8ad433707d793d4d9333f354c') in 0.099040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.258259 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-Black.ttf
+  artifactKey: Guid(9e4a2a4eabf3c59488c57a64c1b7ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-Black.ttf using Guid(9e4a2a4eabf3c59488c57a64c1b7ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed67e45ea6853b8cb6e9b59063039f2') in 0.071029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-ExtraBold.ttf
+  artifactKey: Guid(db790f622e429e449bba720f18525719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-ExtraBold.ttf using Guid(db790f622e429e449bba720f18525719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5943f5b9764360e118f0f2db9611805d') in 0.029887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-ExtraBoldItalic.ttf
+  artifactKey: Guid(b27d774220cf94640b56ce0b1fda21b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-ExtraBoldItalic.ttf using Guid(b27d774220cf94640b56ce0b1fda21b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45b179ebe377b1399ec3e681e6aec94') in 0.030676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-LightItalic.otf
+  artifactKey: Guid(daf67a9941020934da4efe931fe35c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-LightItalic.otf using Guid(daf67a9941020934da4efe931fe35c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7affa818c61b252a8c8e9bd91a97749') in 0.030773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-SemiBoldItalic.ttf
+  artifactKey: Guid(1153a79eb2ee70149a5d841f404ab7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-SemiBoldItalic.ttf using Guid(1153a79eb2ee70149a5d841f404ab7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5976e8c89ba938465fe8ffcf904671') in 0.048688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-Italic.otf
+  artifactKey: Guid(f9431da9d1f4115418809af3ae56644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-Italic.otf using Guid(f9431da9d1f4115418809af3ae56644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58381c261998d4a57329020b8e35856c') in 0.039558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-SemiBold.ttf
+  artifactKey: Guid(b82e427079decb64b89a261697667b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-SemiBold.ttf using Guid(b82e427079decb64b89a261697667b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbe90540bf0be4d9e0cfebfca620387') in 0.026926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(8ea829d0b0fc26547bf7d2f28d3592b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-MediumItalic.ttf using Guid(8ea829d0b0fc26547bf7d2f28d3592b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f97a5fe0c5b35d4c8cfd0369363ae4c') in 0.020262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(8aff7986080d8384da1c2472fa46262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-BoldItalic.ttf using Guid(8aff7986080d8384da1c2472fa46262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd646b75453cf4a9e9ea5eb38c760f762') in 0.028223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-Light.ttf
+  artifactKey: Guid(7668166ff6f2e064bbee3514e57fe92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-Light.ttf using Guid(7668166ff6f2e064bbee3514e57fe92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a45064f6ebf93a160d04d06663f465e') in 0.016516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-ThinItalic.otf
+  artifactKey: Guid(ef91ed9d954b5b043b108e0e0e11a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-ThinItalic.otf using Guid(ef91ed9d954b5b043b108e0e0e11a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e33898861dfc99ae92d3a56843f90a') in 0.013464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-BlackItalic.ttf
+  artifactKey: Guid(dca2ea479d9d6a1408cd55b1f55908cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-BlackItalic.ttf using Guid(dca2ea479d9d6a1408cd55b1f55908cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb471ac3a840218e306c2547781f2e2') in 0.025575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-ExtraLight.otf
+  artifactKey: Guid(c15f4341d86fd7745aa8c862301dc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-ExtraLight.otf using Guid(c15f4341d86fd7745aa8c862301dc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32b051d0ef5761b420ac162fcd40d01') in 0.018579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-MediumItalic.otf
+  artifactKey: Guid(a0fab0af147f9aa48a1074474b2485f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-MediumItalic.otf using Guid(a0fab0af147f9aa48a1074474b2485f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1fe21ba851f10a1da7c173eb92f1b') in 0.030585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-ThinItalic.ttf
+  artifactKey: Guid(29e80f19ca8e04f47b7048992a0d8e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-ThinItalic.ttf using Guid(29e80f19ca8e04f47b7048992a0d8e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907ab0dcf33d230a01036aec101f790c') in 0.023699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-ExtraLight.ttf
+  artifactKey: Guid(ffe2d8deb2a1c31489257c1e956918a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-ExtraLight.ttf using Guid(ffe2d8deb2a1c31489257c1e956918a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4f9490f8403aaa5cd0415c78fbbc53') in 0.015374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fonts/montserrat/Montserrat-BlackItalic.otf
+  artifactKey: Guid(ce93cca54e721334c92045acd036a833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/montserrat/Montserrat-BlackItalic.otf using Guid(ce93cca54e721334c92045acd036a833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e796913e26da992c584c1c416c59f1a5') in 0.015131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.888986 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154d79efd4342dc8b4ff8d7c03c60d42') in 0.054532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
